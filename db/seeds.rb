@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+puts "Cleaning database..."
+Project.destroy_all
+puts "Creating projects..."
+
+project1 = Project.create(title: "Project 1", description: "This is the first project")
+project2 = Project.create(title: "Project 2", description: "This is the second project")
+project3 = Project.create(title: "Project 3", description: "This is the third project")
+
+puts "All done!"
