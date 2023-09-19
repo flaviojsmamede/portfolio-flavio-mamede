@@ -1,5 +1,4 @@
 // Specific CSS for your home-page
-
 #main-div {
   background-color: $red-wine;
   color: $white-wine;
@@ -20,6 +19,7 @@
   .main-link:hover {
     color: $black;
     text-decoration: none;
+    transition: ease 0.3s;
   }
 }
 
@@ -37,10 +37,24 @@
     font-weight: bold;
     font-size: 50px;
     padding: 1rem;
+    z-index: 10;
+  }
+
+  .link-image {
+    // display: none;
+    // overflow: hidden;
+    height: 350px;
+    position: absolute;
+    z-index: 9;
   }
 
   .project-link:hover {
     color: $red-wine;
     text-decoration: none;
+    transition: ease 0.3s;
   }
+
+  // .project-link:hover .link-image {
+  //   display: block;
+  // }
 }

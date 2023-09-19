@@ -18,9 +18,10 @@
     <div>
       <h1 class="m-0 pb-5">PROJECTS</h1>
     </div>
-      <% @projects.each_with_index do |project, index| %>
+      <% @projects.each_with_index do |project| %>
           <div class="d-flex gap-3 justify-content-center flex-column align-items-center">
-              <%= link_to project.title.upcase, project_path(project), class: 'project-link' %>
+              <span><img src=<%= project.images %> alt="project image" class="link-image"></span>
+              <%= link_to project.title.upcase, project_path(project), class: 'project-link', onmouseover: 'color: blue' %>
               <div class="border-bottom border-light w-75 opacity-50"></div>
           </div>
       <% end %>
