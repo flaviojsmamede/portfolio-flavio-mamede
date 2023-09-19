@@ -4,7 +4,7 @@
 <%= link_to 'RESUME','https://drive.google.com/file/d/1HEnlUDVtjF1XL8nLSWTLQtdo6JB4VE9E/view', target: '_blank' %>
 <%= link_to 'GITHUB','https://github.com/flaviojsmamede', target: '_blank' %>
 
+<h1>PROJECTS</h1>
 <% @projects.each do |project| %>
-  <h1><%= project.title %></h1>
-  <p><%= project.description %></p>
+  <%= link_to project.title.upcase, project_path(project) %>
 <% end %>
