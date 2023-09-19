@@ -1,23 +1,46 @@
 // Specific CSS for your home-page
+
 #main-div {
   background-color: $red-wine;
   color: $white-wine;
   height: 100vh;
+  padding-top: 35vh;
 
   h1 {
-    font-size: 65px;
+    font-size: 70px;
   }
 
   .main-link {
     color: $white-wine;
     font-weight: bold;
     font-size: 30px;
+    padding: 1rem;
   }
 
   .main-link:hover {
     color: $black;
     text-decoration: none;
   }
+}
 
+#projects-div {
+  background-color: $black;
+  color: $white-wine;
+  padding: 15vh 0vh;
 
+  h1 {
+    font-size: 70px;
+  }
+
+  .project-link {
+    color: $white-wine;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 1rem;
+  }
+
+  .project-link:hover {
+    color: $red-wine;
+    text-decoration: none;
+  }
 }
