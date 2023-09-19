@@ -1,2 +1,15 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1>FLÁVIO MAMEDE</h1>
+<h5>Empowering users through intuitive products.</h5>
+<%= link_to "EMAIL", resident_path(resident) %>
+<%= link_to "RESUME", resident_path(resident) %>
+<%= link_to "GITHUB", resident_path(resident) %>
+
+<%= mail_to "flaviojsmamede@gmail.com" do %>
+  <p>EMAIL</p>
+<% end %>
+
+
+<% @projects.each do |project| %>
+  <h1><%= project.title %></h1>
+  <p><%= project.description %></p>
+<% end %>
