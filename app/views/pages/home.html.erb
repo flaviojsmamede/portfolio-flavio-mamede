@@ -1,13 +1,8 @@
 <h1>FLÁVIO MAMEDE</h1>
 <h5>Empowering users through intuitive products.</h5>
-<%= link_to "EMAIL", resident_path(resident) %>
-<%= link_to "RESUME", resident_path(resident) %>
-<%= link_to "GITHUB", resident_path(resident) %>
-
-<%= mail_to "flaviojsmamede@gmail.com" do %>
-  <p>EMAIL</p>
-<% end %>
-
+<%= mail_to 'flaviojsmamede@gmail.com', 'EMAIL', target: '_blank' %>
+<%= link_to 'RESUME','https://drive.google.com/file/d/1HEnlUDVtjF1XL8nLSWTLQtdo6JB4VE9E/view', target: '_blank' %>
+<%= link_to 'GITHUB','https://github.com/flaviojsmamede', target: '_blank' %>
 
 <% @projects.each do |project| %>
   <h1><%= project.title %></h1>
