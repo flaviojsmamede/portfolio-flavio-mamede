@@ -1,8 +1,18 @@
-<h1>FLÁVIO MAMEDE</h1>
-<h5>Empowering users through intuitive products.</h5>
-<%= mail_to 'flaviojsmamede@gmail.com', 'EMAIL', target: '_blank' %>
-<%= link_to 'RESUME','https://drive.google.com/file/d/1HEnlUDVtjF1XL8nLSWTLQtdo6JB4VE9E/view', target: '_blank' %>
-<%= link_to 'GITHUB','https://github.com/flaviojsmamede', target: '_blank' %>
+<div class="" id="main-div">
+  <div class="text-center">
+    <div>
+      <h1 class="m-0">FLÁVIO MAMEDE</h1>
+      <h5 class="mt-0">Empowering users through intuitive products.</h5>
+    </div>
+    <div>
+      <%= mail_to 'flaviojsmamede@gmail.com', 'EMAIL', target: '_blank', class: 'main-link' %>
+      <%= link_to 'RESUME','https://drive.google.com/file/d/1HEnlUDVtjF1XL8nLSWTLQtdo6JB4VE9E/view', target: '_blank', class: 'main-link' %>
+      <%= link_to 'GITHUB','https://github.com/flaviojsmamede', target: '_blank', class: 'main-link' %>
+      <%= link_to 'LINKEDIN','https://www.linkedin.com/in/flaviomamede/', target: '_blank', class: 'main-link' %>
+    </div>
+  </div>
+</div>
+
 
 <h1>PROJECTS</h1>
 <% @projects.each do |project| %>
