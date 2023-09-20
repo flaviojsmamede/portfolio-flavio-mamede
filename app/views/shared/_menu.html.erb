@@ -1,16 +1,16 @@
 <div class="menu-bar">
-  <ul class="list-inline justify-content-center tabs mx-5 mb-2 mt-2">
+  <ul class="list-unstyled justify-content-center tabs mx-3 mb-2 mt-2">
     <li>
-      <%= link_to controller: "pages", action: "home", anchor: "main-div" do %>
-        <div class="tab text-center">
+      <%= link_to root_path(anchor: "home") do %>
+        <div class="tab">
           <i class="fa-solid fa-house"></i>
         </div>
       <% end %>
     </li>
 
     <li>
-      <%= link_to controller: "pages", action: "home", anchor: "projects-div" do %>
-        <div class="tab text-center">
+      <%= link_to root_path(anchor: "projects") do %>
+        <div class="tab">
           <i class="fa-solid fa-laptop-code"></i>
         </div>
       <% end %>
@@ -18,16 +18,16 @@
 
     <li>
       <%#= link_to account_path do %>
-        <div class="tab text-center">
-          <i class="fa-solid fa-user"></i>
+        <div class="tab">
+          <i class="fa-solid fa-user ms-1"></i>
         </div>
       <%# end %>
     </li>
 
     <li>
       <%#= link_to search_path do %>
-        <div class="tab text-center">
-          <i class="fa-solid fa-envelope"></i>
+        <div class="tab">
+          <i class="fa-solid fa-envelope ms-1"></i>
         </div>
       <%# end %>
     </li>

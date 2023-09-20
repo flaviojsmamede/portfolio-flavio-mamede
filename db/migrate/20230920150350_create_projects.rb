@@ -2,11 +2,11 @@ class CreateProjects < ActiveRecord::Migration[7.0]
   def change
     create_table :projects do |t|
       t.string :title
-      t.date :start_date
-      t.date :end_date
       t.text :description
-      t.string :images
+      t.text :images, array: true, default: []
       t.string :url
+      t.string :technologies, array: true, default: []
+      t.string :roles, array: true, default: []
 
       t.timestamps
     end

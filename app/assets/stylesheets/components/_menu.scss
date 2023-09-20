@@ -1,14 +1,16 @@
 .menu-bar{
   position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  left: 1%;
+  top: 35%;
+  width: fit-content;
   z-index: 100;
+  // margin-top: 32vh;
+  // height: 100vh;
 }
 
 .tabs{
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
 }
 
 .tabs .tab {
