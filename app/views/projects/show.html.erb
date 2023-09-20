@@ -1,15 +1,29 @@
 <div id="project-main-div">
   <div class="text-center">
+    <h1 class="m-0 mb-3"><%= @project.title.upcase %></h1>
     <div>
-      <h1 class="m-0"><%= @project.title.upcase %></h1>
-      <p class="mt-0"><%= @project.description %></p>
+      <% @project.roles.each do |role| %>
+        <span class="ms-3"><%= role.upcase %></span>
+      <% end %>
     </div>
-    <div class="d-flex gap-3 justify-content-center">
-    <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="30" height="30" style="filter: grayscale(1);"/></a>
-      <%= mail_to 'flaviojsmamede@gmail.com', 'EMAIL', target: '_blank', class: 'main-link' %>
-      <%= link_to 'RESUME','https://drive.google.com/file/d/1HEnlUDVtjF1XL8nLSWTLQtdo6JB4VE9E/view', target: '_blank', class: 'main-link' %>
-      <%= link_to 'GITHUB','https://github.com/flaviojsmamede', target: '_blank', class: 'main-link' %>
-      <%= link_to 'LINKEDIN','https://www.linkedin.com/in/flaviomamede/', target: '_blank', class: 'main-link' %>
+    <div>
+      <% @project.technologies.each do |tech| %>
+        <span class="opacity-75 ms-3"><%= tech.upcase %></span>
+      <% end %>
     </div>
+    <br>
+    <p class="mt-0"><%= @project.description %></p>
+    <%= link_to 'OPEN PROJECT', @project.url, target: '_blank', class: 'btn btn-outline-light border border-light mt-5' %>
+  </div>
+</div>
+
+<div id="project-images-div">
+  <div class="text-center">
+    <div class="">
+      <% @project.images.each do |image| %>
+        <img src=<%= image %> class="w-75 mb-5">
+      <% end %>
+    </div>
+    <%= link_to 'MORE PROJECTS', controller: "pages", action: "home", anchor: "projects-div", class: 'btn btn-outline-light border border-light mb-5' %>
   </div>
 </div>

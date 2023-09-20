@@ -19,7 +19,7 @@ care = Project.create(
   ],
   url: 'http://www.2care.me/',
   technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
-  role: 'Project Manager, UX/UI Designer, FUll-stack Developer'
+  roles: ['Project Manager', 'UX/UI Designer', 'Full-stack Developer']
 )
 
 sandspot = Project.create(
@@ -30,7 +30,7 @@ sandspot = Project.create(
   ],
   url: 'https://sandspot-311de011306d.herokuapp.com/',
   technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
-  role: 'Project Manager, UX/UI Designer, FUll-stack Developer'
+  roles: ['Project Manager', 'UX/UI Designer', 'Full-stack Developer']
 )
 
 apastelaria = Project.create(
@@ -41,7 +41,7 @@ apastelaria = Project.create(
   ],
   url: 'https://flaviojsmamede.github.io/lewagon-landingpage/',
   technologies: ['HTML', 'CSS', 'JavaScript','Figma'],
-  role: 'UX/UI Designer, Front-end Developer'
+  roles: ['UX/UI Designer', 'Full-stack Developer']
 )
 
 puts "All done!"

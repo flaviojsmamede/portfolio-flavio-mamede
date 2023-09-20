@@ -3,10 +3,10 @@ class CreateProjects < ActiveRecord::Migration[7.0]
     create_table :projects do |t|
       t.string :title
       t.text :description
-      t.text :images, default: [], array: true
+      t.text :images, array: true, default: []
       t.string :url
-      t.string :technologies, default: [], array: true
-      t.string :role
+      t.string :technologies, array: true, default: []
+      t.string :roles, array: true, default: []
 
       t.timestamps
     end
