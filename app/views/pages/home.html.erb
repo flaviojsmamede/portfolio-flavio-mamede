@@ -22,7 +22,7 @@
           <div class="d-flex gap-3 justify-content-center flex-column ps-5">
               <%= link_to project.title.upcase, project_path(project), class: 'project-link' %>
               <div class="hover-image" style="left: <%= rand(20..80) %>%">
-                <img src=<%= project.images %> alt="project image">
+                <img src=<%= project.images[0] %> alt="project image">
               </div>
               <%# <div class="border-bottom border-light w-25 opacity-50"></div> %>
           </div>
