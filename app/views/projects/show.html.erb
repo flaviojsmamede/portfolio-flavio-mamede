@@ -1,2 +1,17 @@
 <h1><%= @project.title.upcase %></h1>
 <p><%= @project.description %></p>
+
+<div id="project-main-div">
+  <div class="text-center">
+    <div>
+      <h1 class="m-0"><%= @project.title.upcase %></h1>
+      <%# <p class="mt-0">Empowering users through intuitive products</p> %>
+    </div>
+    <div class="d-flex gap-3 justify-content-center">
+      <%= mail_to 'flaviojsmamede@gmail.com', 'EMAIL', target: '_blank', class: 'main-link' %>
+      <%= link_to 'RESUME','https://drive.google.com/file/d/1HEnlUDVtjF1XL8nLSWTLQtdo6JB4VE9E/view', target: '_blank', class: 'main-link' %>
+      <%= link_to 'GITHUB','https://github.com/flaviojsmamede', target: '_blank', class: 'main-link' %>
+      <%= link_to 'LINKEDIN','https://www.linkedin.com/in/flaviomamede/', target: '_blank', class: 'main-link' %>
+    </div>
+  </div>
+</div>
