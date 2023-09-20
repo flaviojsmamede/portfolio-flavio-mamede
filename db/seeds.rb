@@ -15,7 +15,11 @@ care = Project.create(
   description: "This is the first project",
   images: [
     'https://images.pexels.com/photos/3791664/pexels-photo-3791664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    'https://images.pexels.com/photos/3791664/pexels-photo-3791664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    '../../images/2care/2care-1.png',
+    '../../images/2care/2care-2.png',
+    '../../images/2care/2care-3.png',
+    '../../images/2care/2care-4.png',
+    '2care-5.png'
   ],
   url: 'http://www.2care.me/',
   technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
