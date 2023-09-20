@@ -10,8 +10,22 @@ puts "Cleaning database..."
 Project.destroy_all
 puts "Creating projects..."
 
-project1 = Project.create(title: "Project 1", description: "This is the first project")
-project2 = Project.create(title: "Project 2", description: "This is the second project")
-project3 = Project.create(title: "Project 3", description: "This is the third project")
+care = Project.create(
+  title: "2Care",
+  description: "This is the first project",
+  images: "https://images.pexels.com/photos/3791664/pexels-photo-3791664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+)
+
+sandspot = Project.create(
+  title: "SandSpot",
+  description: "This is the second project",
+  images: "https://images.pexels.com/photos/130879/pexels-photo-130879.jpeg?auto=compress&cs=tinysrgb&w=1600"
+)
+
+apastelaria = Project.create(
+  title: "aPastelaria",
+  description: "This is the third project",
+  images: "https://images.pexels.com/photos/2573870/pexels-photo-2573870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+)
 
 puts "All done!"
