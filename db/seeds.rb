@@ -8,10 +8,9 @@ care = Project.create(
   images: [
     'https://images.pexels.com/photos/3791664/pexels-photo-3791664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     'care-1.png',
-    'app/assets/images/care/care-2.png',
-    '../../images/care/care-3.png',
-    'images/care/care-3.png',
-    '/care/care-4.png',
+    'care-2.png',
+    'care-3.png',
+    'care-4.png',
     'care-5.png'
   ],
   url: 'http://www.2care.me/',
@@ -45,7 +44,7 @@ cinelist = Project.create(
   title: "Cinelist",
   description: "This is the fourth project",
   images: [
-
+    'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   ],
   url: 'https://cinelist-eba20d7bfef3.herokuapp.com/lists',
   technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
