@@ -35,7 +35,7 @@ sandspot = Project.create(
 
 apastelaria = Project.create(
   title: "aPastelaria",
-  description: "One of the 5 winning projects out of 500 chosen for the Le Wagon scholarship on the program StepByTech from Câmara Municipal de Lisboa.",
+  description: "One of the 5 winning projects out of 500 chosen for the Le Wagon scholarship. This was the final project to access Step 3 of the program StepByTech from Câmara Municipal de Lisboa.",
   images: [
     'https://images.pexels.com/photos/2573870/pexels-photo-2573870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     'apastelaria-1.png',
@@ -54,7 +54,9 @@ cinelist = Project.create(
   title: "Cinelist",
   description: "Web App to create a list of movies to watch. I designed and programmed the project as an exercise during the Le Wagon Bootcamp.",
   images: [
-    'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'cinelist-1.png',
+    'cinelist-2.png'
   ],
   url: 'https://cinelist-eba20d7bfef3.herokuapp.com/lists',
   technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
