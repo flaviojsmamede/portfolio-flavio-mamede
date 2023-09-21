@@ -41,7 +41,8 @@ apastelaria = Project.create(
     'apastelaria-2.png',
     'apastelaria-3.png',
     'apastelaria-4.png',
-    'apastelaria-5.png'
+    'apastelaria-5.png',
+    'apastelaria-6.png'
   ],
   url: 'https://flaviojsmamede.github.io/apastelaria/',
   technologies: ['HTML', 'CSS', 'JavaScript','Figma'],
