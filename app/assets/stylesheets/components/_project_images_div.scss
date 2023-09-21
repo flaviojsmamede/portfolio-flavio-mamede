@@ -2,3 +2,20 @@
   background-color: $black;
   padding-bottom: 10vh;
 }
+
+#project-images-div-mobile {
+  background-color: $black;
+  padding-bottom: 10vh;
+}
+
+#project-images-div-mobile img{
+  width: 45%;
+  margin-bottom: 4%;
+  border-radius: 20px;
+}
+
+#project-images-div img{
+  width: 80%;
+  margin-bottom: 4%;
+  border-radius: 10px;
+}
