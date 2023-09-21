@@ -22,7 +22,10 @@ sandspot = Project.create(
   title: "SandSpot",
   description: "This is the second project",
   images: [
-    'https://images.pexels.com/photos/130879/pexels-photo-130879.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    'https://images.pexels.com/photos/130879/pexels-photo-130879.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    'sandspot-1.png',
+    'sandspot-2.png',
+    'sandspot-3.png'
   ],
   url: 'https://sandspot-311de011306d.herokuapp.com/',
   technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
@@ -33,9 +36,14 @@ apastelaria = Project.create(
   title: "aPastelaria",
   description: "This is the third project",
   images: [
-    'https://images.pexels.com/photos/2573870/pexels-photo-2573870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    'https://images.pexels.com/photos/2573870/pexels-photo-2573870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'apastelaria-1.png',
+    'apastelaria-2.png',
+    'apastelaria-3.png',
+    'apastelaria-4.png',
+    'apastelaria-5.png'
   ],
-  url: 'https://flaviojsmamede.github.io/lewagon-landingpage/',
+  url: 'https://flaviojsmamede.github.io/apastelaria/',
   technologies: ['HTML', 'CSS', 'JavaScript','Figma'],
   roles: ['UX/UI Designer', 'Full-stack Developer']
 )
