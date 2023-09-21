@@ -11,9 +11,12 @@
         <span class="opacity-75 ms-3"><%= tech.upcase %></span>
       <% end %>
     </div>
-    <br>
-    <p class="mt-0"><%= @project.description %></p>
-    <%= link_to 'OPEN PROJECT', @project.url, target: '_blank', class: 'btn btn-outline-light border border-light mt-5' %>
+    <div class="p-5">
+      <% @project.description.split('.').each do |description| %>
+        <p class="mt-0 opacity-75 m-0"><%= description %>.<br></p>
+      <% end %>
+    </div>
+    <%= link_to 'OPEN PROJECT', @project.url, target: '_blank', class: 'btn btn-outline-light border border-light' %>
   </div>
 </div>
 
