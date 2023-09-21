@@ -1,11 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
-
 puts "Cleaning database..."
 Project.destroy_all
 puts "Creating projects..."
@@ -46,6 +38,17 @@ apastelaria = Project.create(
   ],
   url: 'https://flaviojsmamede.github.io/lewagon-landingpage/',
   technologies: ['HTML', 'CSS', 'JavaScript','Figma'],
+  roles: ['UX/UI Designer', 'Full-stack Developer']
+)
+
+cinelist = Project.create(
+  title: "Cinelist",
+  description: "This is the fourth project",
+  images: [
+
+  ],
+  url: 'https://cinelist-eba20d7bfef3.herokuapp.com/lists',
+  technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
   roles: ['UX/UI Designer', 'Full-stack Developer']
 )
 
