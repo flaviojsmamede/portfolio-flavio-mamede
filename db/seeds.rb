@@ -2,7 +2,7 @@ puts "Cleaning database..."
 Project.destroy_all
 puts "Creating projects..."
 
-care = Project.create(
+Project.create(
   title: "2Care",
   description: "Web Mobile App for Elderly Homes to be in contact with the resident’s families.
   Pitched the idea, managed, designed and programmed the project in a team of 4.",
@@ -19,7 +19,7 @@ care = Project.create(
   roles: ['Project Manager', 'UX/UI Designer', 'Full-stack Developer']
 )
 
-sandspot = Project.create(
+Project.create(
   title: "SandSpot",
   description: "Airbnb clone to rent a place on the beach. I managed a team of 4, designed and programmed the project.",
   images: [
@@ -33,7 +33,7 @@ sandspot = Project.create(
   roles: ['Project Manager', 'UX/UI Designer', 'Full-stack Developer']
 )
 
-apastelaria = Project.create(
+Project.create(
   title: "aPastelaria",
   description: "One of the 5 winning projects out of 500 chosen for the Le Wagon scholarship. This was the final project to access Step 3 of the program StepByTech from Câmara Municipal de Lisboa.",
   images: [
@@ -50,7 +50,7 @@ apastelaria = Project.create(
   roles: ['UX/UI Designer', 'Full-stack Developer']
 )
 
-cinelist = Project.create(
+Project.create(
   title: "Cinelist",
   description: "Web App to create a list of movies to watch. I designed and programmed the project as an exercise during the Le Wagon Bootcamp.",
   images: [
