@@ -86,7 +86,6 @@ test:
 #
 production:
   <<: *default
-  adapter: postgresql
-  database: portfolio_flavio_mamede_production
-  username: portfolio_flavio_mamede
-  password: <%= ENV["PORTFOLIO_FLAVIO_MAMEDE_DATABASE_PASSWORD"] %>
+  database: portfolio_flavio_mamede
+  # username: portfolio_flavio_mamede
+  # password: <%= ENV["PORTFOLIO_FLAVIO_MAMEDE_DATABASE_PASSWORD"] %>
