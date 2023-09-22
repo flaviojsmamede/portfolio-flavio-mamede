@@ -87,5 +87,6 @@ test:
 production:
   <<: *default
   database: portfolio_flavio_mamede
-  # username: portfolio_flavio_mamede
-  # password: <%= ENV["PORTFOLIO_FLAVIO_MAMEDE_DATABASE_PASSWORD"] %>
+  username: portfolio_flavio_mamede
+  password: <%= ENV["PORTFOLIO_FLAVIO_MAMEDE_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
