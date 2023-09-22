@@ -24,7 +24,11 @@ default: &default
 development:
   <<: *default
   database: portfolio_flavio_mamede_development
-
+  adapter: postgresql
+  # host: localhost
+  # port: 3000
+  # username: portfolio_flavio_mamede
+  # password: <%= ENV["PORTFOLIO_FLAVIO_MAMEDE_DATABASE_PASSWORD"] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -84,5 +88,5 @@ production:
   <<: *default
   adapter: postgresql
   database: portfolio_flavio_mamede_production
-  # username: portfolio_flavio_mamede
-  # password: <%= ENV["PORTFOLIO_FLAVIO_MAMEDE_DATABASE_PASSWORD"] %>
+  username: portfolio_flavio_mamede
+  password: <%= ENV["PORTFOLIO_FLAVIO_MAMEDE_DATABASE_PASSWORD"] %>
