@@ -1,35 +1,38 @@
-<div class="menu-bar">
-  <ul class="list-unstyled justify-content-center tabs mx-3 mb-2 mt-2">
-    <li>
-      <%= link_to root_path(anchor: "home") do %>
-        <div class="tab">
-          <i class="fa-solid fa-house"></i>
-        </div>
-      <% end %>
-    </li>
+<div>
+  <div class="menu-bar">
+    <ul class="list-unstyled justify-content-center tabs text-center">
+      <li>
+        <%= link_to root_path(anchor: "home") do %>
+          <div class="tab">
+            <i class="fa-solid fa-house"></i>
+          </div>
+        <% end %>
+      </li>
 
-    <li>
-      <%= link_to root_path(anchor: "projects") do %>
-        <div class="tab">
-          <i class="fa-solid fa-laptop-code"></i>
-        </div>
-      <% end %>
-    </li>
+      <li>
+        <%= link_to root_path(anchor: "projects") do %>
+          <div class="tab">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+        <% end %>
+      </li>
 
-    <%# <li> %>
-      <%#= link_to account_path do %>
-        <%# <div class="tab">
-          <i class="fa-solid fa-user ms-1"></i>
-        </div> %>
-      <%# end %>
-    <%# </li>
+      <%# <li> %>
+        <%#= link_to account_path do %>
+          <%# <div class="tab">
+            <i class="fa-solid fa-user ms-1"></i>
+          </div> %>
+        <%# end %>
+      <%# </li>
 
-    <li> %>
-      <%#= link_to search_path do %>
-        <%# <div class="tab">
-          <i class="fa-solid fa-envelope ms-1"></i>
-        </div> %>
-      <%# end %>
-    <%# </li> %>
-  </ul>
+      <li> %>
+        <%#= link_to search_path do %>
+          <%# <div class="tab">
+            <i class="fa-solid fa-envelope ms-1"></i>
+          </div> %>
+        <%# end %>
+      <%# </li> %>
+    </ul>
+  </div>
+
 </div>
