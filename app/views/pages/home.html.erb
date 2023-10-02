@@ -1,13 +1,23 @@
 <div id="home">
   <div class="text-center">
-    <div>
-      <h1 class="m-0">FLÁVIO MAMEDE</h1>
+    <div class="row justify-content-center">
+      <h1 class="m-0 ms-4">FLÁVIO MAMEDE</h1>
     </div>
-    <div class="d-flex gap-3 justify-content-center">
-      <%= mail_to 'flaviojsmamede@gmail.com', 'EMAIL', target: '_blank', class: 'main-link' %>
-      <%= link_to 'RESUME','https://drive.google.com/file/d/1HEnlUDVtjF1XL8nLSWTLQtdo6JB4VE9E/view', target: '_blank', class: 'main-link' %>
-      <%= link_to 'GITHUB','https://github.com/flaviojsmamede', target: '_blank', class: 'main-link' %>
-      <%= link_to 'LINKEDIN','https://www.linkedin.com/in/flaviomamede/', target: '_blank', class: 'main-link' %>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-2 col-sm-12">
+          <%= mail_to 'flaviojsmamede@gmail.com', 'EMAIL', target: '_blank', class: 'main-link' %>
+        </div>
+        <div class="col-lg-2 col-sm-12">
+          <%= link_to 'RESUME','https://drive.google.com/file/d/1HEnlUDVtjF1XL8nLSWTLQtdo6JB4VE9E/view', target: '_blank', class: 'main-link' %>
+        </div>
+        <div class="col-lg-2 col-sm-12">
+          <%= link_to 'GITHUB','https://github.com/flaviojsmamede', target: '_blank', class: 'main-link' %>
+        </div>
+        <div class="col-lg-2 col-sm-12">
+          <%= link_to 'LINKEDIN','https://www.linkedin.com/in/flaviomamede/', target: '_blank', class: 'main-link' %>
+        </div>
+      </div>
     </div>
   </div>
 </div>
