@@ -2,11 +2,10 @@
   background-color: $red-wine;
   color: $white-wine;
   height: 100vh;
-  padding-top: 35vh;
   width: 100%;
 
   h1 {
-    font-size: 87px;
+    font-size: 8.6rem;
   }
 
   .main-link {
@@ -23,4 +22,15 @@
   }
 }
 
+@media screen and (max-width: 530px) {
+  #home {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+}
 
+@media screen and (max-width: 800px) {
+  #home {
+  }
+}
