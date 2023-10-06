@@ -5,6 +5,22 @@
   height: 100vh;
 
   h1 {
-    font-size: 70px;
+    font-size: 8.6rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #project-main-div {
+    h1 {
+      font-size: 5.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #project-main-div {
+    h1 {
+      font-size: 4.5rem;
+    }
   }
 }
