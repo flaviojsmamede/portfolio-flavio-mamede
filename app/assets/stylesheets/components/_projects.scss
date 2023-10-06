@@ -3,19 +3,20 @@
   color: $white-wine;
   padding: 20vh 0vh;
   // height: 100vh;
+  width: 100%;
 
-    h1 {
-      font-size: 70px;
-      color: $black;
-      position: relative;
-      z-index: 20;
-      -webkit-text-stroke: 1px $white-wine;
-    }
+  h1 {
+    font-size: 8.6rem;
+    color: $black;
+    position: relative;
+    z-index: 20;
+    -webkit-text-stroke: 1px $white-wine;
+  }
 
   .project-link {
     color: $white-wine;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 8.6rem;
     padding: 1rem;
     z-index: 10;
     -webkit-text-stroke: 1px $white-wine;
@@ -47,5 +48,25 @@
   .project-link:hover + .hover-image {
     display: block;
     transition: ease 0.5s;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #projects {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #projects {
+    h1 {
+      font-size: 5rem;
+    }
+
+    .project-link {
+      font-size: 4rem;
+    }
   }
 }

@@ -1,12 +1,12 @@
 <div id="project-main-div">
   <div class="text-center">
     <h1 class="m-0 mb-3"><%= @project.title.upcase %></h1>
-    <div>
+    <div class="px-5">
       <% @project.roles.each do |role| %>
         <span class="ms-3"><%= role.upcase %></span>
       <% end %>
     </div>
-    <div>
+    <div class="px-5">
       <% @project.technologies.each do |tech| %>
         <span class="opacity-75 ms-3"><%= tech.upcase %></span>
       <% end %>
