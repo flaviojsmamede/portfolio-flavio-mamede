@@ -1,7 +1,7 @@
 <div id="home" class="d-flex align-items-center justify-content-center">
   <div class="text-center">
     <div>
-      <h1 class="m-0 ms-4">FLÁVIO MAMEDE</h1>
+      <h1 class="m-0">FLÁVIO MAMEDE</h1>
     </div>
     <div class="container">
       <div class="row justify-content-center">
@@ -22,13 +22,13 @@
   </div>
 </div>
 
-<div id="projects">
+<div id="projects" class="">
   <div class="text-center">
     <div>
-      <h1 class="m-0 pb-5 ps-5">PROJECTS</h1>
+      <h1 class="m-0 pb-5">PROJECTS</h1>
     </div>
     <% @projects.each do |project| %>
-        <div class="d-flex gap-3 justify-content-center flex-column ps-5">
+        <div class="d-flex gap-3 justify-content-center flex-column">
             <%= link_to project.title.upcase, project_path(project), class: 'project-link' %>
             <div class="hover-image" style="left: <%= rand(7..40) %>%; top: <%= rand(120..155) %>%; ">
               <img src=<%= project.images[0] %> alt="project image">
