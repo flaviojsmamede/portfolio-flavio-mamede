@@ -65,9 +65,11 @@ Project.create(
 
 Project.create(
   title: "Design System",
-  description: "2 days challenge to create a simple design system on Figma, using Next.Js + TypeScript and the creation of 2 simple landing pages using the components",
+  description: "Two days challenge for a job interview to create a simple design system as a designer and a developer.
+  I had to create the design system on Figma and code it using Next and TypeScript.
+  Then I had to create two landing pages using the design system as an example.",
   images: [
-    'design-system-1.png',
+    'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     'design-system-2.png',
     'design-system-3.png',
     'design-system-4.png',
@@ -78,7 +80,7 @@ Project.create(
   ],
   url: 'https://luminous-cajeta-28e308.netlify.app/',
   technologies: ['HTML', 'CSS', 'JavaScript','Figma', "Next.Js", "TypeScript"],
-  roles: ['UX/UI Designer', 'Front-end Developer']
+  roles: ['Front-end Developer', 'UX/UI Designer']
 )
 
 puts "All done!"
