@@ -50,17 +50,35 @@ Project.create(
   roles: ['UX/UI Designer', 'Full-stack Developer']
 )
 
+# Project.create(
+#   title: "Cinelist",
+#   description: "Web App to create a list of movies to watch. I designed and programmed the project as an exercise during the Le Wagon Bootcamp.",
+#   images: [
+#     'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+#     'cinelist-1.png',
+#     'cinelist-2.png'
+#   ],
+#   url: 'https://cinelist-eba20d7bfef3.herokuapp.com/lists',
+#   technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
+#   roles: ['UX/UI Designer', 'Full-stack Developer']
+# )
+
 Project.create(
-  title: "Cinelist",
-  description: "Web App to create a list of movies to watch. I designed and programmed the project as an exercise during the Le Wagon Bootcamp.",
+  title: "Design System",
+  description: "2 days challenge to create a simple design system on Figma, using Next.Js + TypeScript and the creation of 2 simple landing pages using the components",
   images: [
-    'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    'cinelist-1.png',
-    'cinelist-2.png'
+    'design-system-1.png',
+    'design-system-2.png',
+    'design-system-3.png',
+    'design-system-4.png',
+    'design-system-5.png',
+    'design-system-6.png',
+    'design-system-7.png',
+    'design-system-8.png'
   ],
-  url: 'https://cinelist-eba20d7bfef3.herokuapp.com/lists',
-  technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
-  roles: ['UX/UI Designer', 'Full-stack Developer']
+  url: 'https://luminous-cajeta-28e308.netlify.app/',
+  technologies: ['HTML', 'CSS', 'JavaScript','Figma', "Next.Js", "TypeScript"],
+  roles: ['UX/UI Designer', 'Front-end Developer']
 )
 
 puts "All done!"
