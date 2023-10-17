@@ -50,17 +50,37 @@ Project.create(
   roles: ['UX/UI Designer', 'Full-stack Developer']
 )
 
+# Project.create(
+#   title: "Cinelist",
+#   description: "Web App to create a list of movies to watch. I designed and programmed the project as an exercise during the Le Wagon Bootcamp.",
+#   images: [
+#     'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+#     'cinelist-1.png',
+#     'cinelist-2.png'
+#   ],
+#   url: 'https://cinelist-eba20d7bfef3.herokuapp.com/lists',
+#   technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
+#   roles: ['UX/UI Designer', 'Full-stack Developer']
+# )
+
 Project.create(
-  title: "Cinelist",
-  description: "Web App to create a list of movies to watch. I designed and programmed the project as an exercise during the Le Wagon Bootcamp.",
+  title: "Design System",
+  description: "Two days challenge for a job interview to create a simple design system as a designer and a developer.
+  I had to create the design system on Figma and code it using Next and TypeScript.
+  Then I had to create two landing pages using the design system as an example.",
   images: [
-    'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    'cinelist-1.png',
-    'cinelist-2.png'
+    'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'design-system-2.png',
+    'design-system-3.png',
+    'design-system-4.png',
+    'design-system-5.png',
+    'design-system-6.png',
+    'design-system-7.png',
+    'design-system-8.png'
   ],
-  url: 'https://cinelist-eba20d7bfef3.herokuapp.com/lists',
-  technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Ruby on Rails', 'Figma', 'PostgreSQL', 'Heroku'],
-  roles: ['UX/UI Designer', 'Full-stack Developer']
+  url: 'https://luminous-cajeta-28e308.netlify.app/',
+  technologies: ['HTML', 'CSS', 'JavaScript','Figma', "Next.Js", "TypeScript"],
+  roles: ['Front-end Developer', 'UX/UI Designer']
 )
 
 puts "All done!"
